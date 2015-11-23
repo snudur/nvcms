@@ -1,0 +1,439 @@
+@charset "UTF-8";
+
+/* litir */
+
+.heading-font,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: lobster-two, cursive !important;
+}
+
+.basic-font,
+body,
+body p {
+  font-family: source-sans-pro, sans-serif !important;
+}
+
+body {
+  line-height: 1.8em;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #ff0000;
+}
+
+a {
+  color: #fa9500;
+}
+
+a:hover {
+  color: #fa9500;
+}
+
+/* Haus */
+
+.Haus {
+  background: #20bde8;
+}
+
+.Haus__simi {
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Page */
+
+.Page {
+  min-height: 65vh;
+}
+
+.Page__crumbs ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Page__crumbs ul li {
+  text-transform: uppercase;
+  float: left;
+}
+
+.Page__crumbs ul li:after {
+  padding-right: 1em;
+  padding-left: 1em;
+  content: "\f105";
+  font-family: FontAwesome;
+}
+
+.Page__crumbs ul li:last-child:after {
+  content: "";
+  display: none;
+}
+
+.Page img {
+  height: auto !important;
+}
+
+.Page img.fullwidth {
+  width: 100% !important;
+}
+
+.Page img.left {
+  float: left;
+  max-width: 400px;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.Page img.right {
+  float: right;
+  max-width: 400px;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 600px) {
+  .Page img {
+    display: inline-block;
+    width: 100% !important;
+    min-width: 100%;
+  }
+
+  .Page img.left,
+  .Page img.right {
+    float: none !important;
+    margin: 0 !important;
+    margin-bottom: 1em !important;
+  }
+}
+
+.Page figure {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 600px) {
+  .Page figure {
+    width: 100%;
+    display: block;
+  }
+
+  .Page figure.lefter,
+  .Page figure.righter {
+    margin: 0 !important;
+    margin-bottom: 1em !important;
+  }
+
+  .Page figure img {
+    width: 100%;
+  }
+}
+
+.Page figure.lefter {
+  float: left;
+  margin-right: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+.Page figure.righter {
+  float: right;
+  margin-left: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+/* Button */
+
+.takki,
+button.takki,
+a.takki {
+  text-align: center;
+  display: inline-block;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 1em 2em;
+  background: #20bde8;
+  transition: background 0.25s;
+}
+
+@media (max-width: 479px) {
+  .takki,
+  button.takki,
+  a.takki {
+    display: block !important;
+  }
+}
+
+.takki:hover,
+.takki:focus,
+.takki:active,
+button.takki:hover,
+button.takki:focus,
+button.takki:active,
+a.takki:hover,
+a.takki:focus,
+a.takki:active {
+  background: #149cc1;
+  transition: background 0.25s;
+}
+
+/* Navigation */
+
+nav ul,
+nav li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav.top {
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+nav.top ul li {
+  float: left;
+}
+
+nav.top ul li ul {
+  display: none;
+}
+
+nav.top ul li.active a {
+  color: #cc0000;
+}
+
+nav.top ul li:first-child a {
+  margin-left: 0;
+}
+
+nav.top ul li a {
+  font-weight: bold;
+  font-size: 1em;
+  display: block;
+  margin-left: 1.5em;
+  color: #FFF;
+  color: #FFF;
+  transition: color 0.25s;
+}
+
+nav.top ul li a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav.top ul li a:hover,
+nav.top ul li a:focus,
+nav.top ul li a:active {
+  color: #cc0000;
+  transition: color 0.25s;
+}
+
+/* Offcanvas */
+
+.uk-offcanvas-bar {
+  background: #ff9900;
+}
+
+.Offcanvas {
+  background: #ff9900;
+}
+
+.Offcanvas ul li ul {
+  display: none;
+}
+
+.Offcanvas a {
+  display: block;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.Offcanvas a:hover {
+  text-decoration: none;
+}
+
+/* Subnav */
+
+.Subnav li.active.being_viewed > a {
+  background: #cc7a00;
+}
+
+.Subnav li ul li.active.being_viewed > a {
+  background: #c4c4c4;
+}
+
+.Subnav li ul li a {
+  color: #1a1a1a;
+  background: #EEE;
+  transition: background 0.25s;
+}
+
+.Subnav li ul li a:hover,
+.Subnav li ul li a:focus,
+.Subnav li ul li a:active {
+  background: #c4c4c4;
+  transition: background 0.25s;
+}
+
+.Subnav li ul li ul li.active.being_viewed > a {
+  background: #b3b3b3;
+}
+
+.Subnav li ul li ul li a {
+  color: #1a1a1a;
+  background: #DDD;
+  transition: background 0.25s;
+}
+
+.Subnav li ul li ul li a:hover,
+.Subnav li ul li ul li a:focus,
+.Subnav li ul li ul li a:active {
+  background: #b3b3b3;
+  transition: background 0.25s;
+}
+
+.Subnav a {
+  background: #ff9900;
+  transition: background 0.25s;
+  position: relative;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 0.5em;
+  line-height: 1.5em;
+  color: #FFF;
+  display: block;
+}
+
+.Subnav a a:hover {
+  text-decoration: none;
+}
+
+.Subnav a:hover,
+.Subnav a:focus,
+.Subnav a:active {
+  background: #cc7a00;
+  transition: background 0.25s;
+}
+
+/* Alt */
+
+.alt {
+  color: #FFF;
+}
+
+.alt h1,
+.alt h2,
+.alt h3,
+.alt h4,
+.alt h5,
+.alt h6 {
+  color: #FFF;
+}
+
+.alt a {
+  color: #FFF;
+}
+
+.alt a:hover {
+  color: #FFF;
+}
+
+/* Fótur */
+
+.Fotur {
+  background: #ff9900;
+}
+
+/* Dálkur */
+
+.Dalkur ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Dalkur ul li ul {
+  display: none;
+}
+
+/* Banner */
+
+.Slideshow {
+  outline: 1px solid #DDD;
+  border: 5px solid #FFF;
+}
+
+#mobile-button {
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #mobile-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+/* Kubbur */
+
+.Kubbur__content {
+  min-height: 100px;
+}
+
+.Kubbur__image {
+  outline: 1px solid #DDD;
+  border: 5px solid #FFF;
+  display: block;
+  height: 200px;
+}
+
+.Kubbur__image:hover {
+  outline: 1px solid #DDD;
+  border: 5px solid #FFF;
+}
+
+.Kubbur__title h3 {
+  margin: 0.5em 0;
+}
+
+/* Extra */
+
+.padded {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.padded-top {
+  padding-top: 2em;
+}
+
+.padded-bottom {
+  padding-bottom: 2em;
+}

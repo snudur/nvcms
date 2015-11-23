@@ -1,0 +1,297 @@
+/* litir */
+/* appelsínugulur ff9900 */
+/* fjólublár f18bf8 */
+/* grænn 6ef46f */
+/* blár 20bde8 */
+
+body {
+    line-height: 1.8em;
+}
+
+a {
+    color: #fa9500;
+}
+a:hover {
+    color: #fa9500;   
+}
+
+
+
+
+
+/* Haus */
+.Haus {
+    background: #20bde8;
+}
+.Haus__simi {
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+/* Page */
+.Page {
+    min-height: 65vh;
+}
+
+
+
+
+
+
+
+
+/* Navigation */
+nav {
+}
+nav ul li,
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.top {
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+nav.top ul {
+}
+nav.top ul li {
+    float: left;
+}
+nav.off-canvas ul li ul,
+nav.top ul li ul {
+    display: none;
+}
+nav.top ul li a {
+    background: #FFF;
+    display: block;
+    padding: 0.5em 1em;
+    color: #333;
+}
+nav.top ul li a:hover {
+    color: #333;
+    text-decoration: none;
+}
+nav.top {
+}
+
+
+
+
+/* Offcanvas */
+.uk-offcanvas-bar {
+    background: #ff9900;
+}
+.Offcanvas {
+    background: #ff9900;
+}
+.Offcanvas li.active a {
+}
+.Offcanvas li ul {
+    padding-left: 1em;
+}
+.Offcanvas li ul li {
+    display: none;
+}
+.Offcanvas a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0.5em;
+    line-height: 1.5em;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+/* Subnav */
+.Subnav {
+    background: #20bde8;
+}
+.Subnav li.active a {
+}
+.Subnav li {
+}
+.Subnav li ul li {
+}
+.Subnav li ul li ul li {
+}
+.Subnav a:hover {
+    text-decoration: none;
+}
+.Subnav a {
+    position: relative;
+    text-decoration: none;    
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0.5em;
+    line-height: 1.5em;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+}
+/*.Subnav li.active.has_subs > a:after {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    text-align: center;
+    outline: 1px solid red;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+/* Alt */
+
+.alt h1,
+.alt h2,
+.alt h3,
+.alt h4,
+.alt h5,
+.alt h6 {
+    color: #FFF;
+}
+.alt {
+    color: #FFF;
+}
+.alt a {
+    color: #FFF;
+}
+.alt a:hover {
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+/* Fótur */
+.Fotur {
+    background: #ff9900;
+}
+
+
+
+/* Dálkur */
+.Dalkur {
+}
+.Dalkur ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Dalkur ul li ul {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* Banner */
+.Banner {
+}
+.Slideshow {
+    outline: 1px solid #DDD;
+    border: 5px solid #FFF;
+}
+.Banner__image {
+
+}
+
+
+
+
+
+
+#mobile-button {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Kubbur */
+.Kubbur {
+
+}
+.Kubbur__content {
+    min-height: 100px;
+}
+.Kubbur__image {
+    outline: 1px solid #DDD;
+    border: 5px solid #FFF;
+    display: block;
+    height: 200px;
+}
+.Kubbur__image:hover {
+    outline: 1px solid #DDD;
+    border: 5px solid #FFF;
+}
+.Kubbur__title h3 {
+    margin: 0.5em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra */
+.padded {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.padded-top {
+    padding-top: 2em;
+}
+.padded-bottom {
+    padding-bottom: 2em;
+}
