@@ -88,6 +88,25 @@
 				</div>
 			</div>
 
+			@if(isset($item) && $item->img()->exists())
+				<div id="myndaslider" class="uk-margin-top">
+					<div data-uk-slideset="{small: 2, medium: 4, large: 6}">
+					    <div class="uk-slidenav-position">
+					        <ul class="uk-grid uk-slideset">
+					        	@foreach($item->img()->all() as $img)
+					            	<li class="uk-text-center">
+					            		<img class="dragimage" data-link="/imagecache/article/{{ $img['name'] }}" src="/imagecache/article/{{ $img['name'] }}" /><br>
+					            	</li>
+					            @endforeach
+					        </ul>
+					        <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideset-item="previous"></a>
+					        <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideset-item="next"></a>
+					    </div>
+					    <ul class="uk-slideset-nav uk-dotnav uk-flex-center uk-margin-top">...</ul>
+					</div>
+				</div>
+			@endif
+
 			@if(array_key_exists('args', $field) && $field['args']['ckeditor'])
 				<script>
 				//CKEDITOR.replace( '{!! $field['name'] !!}_{{ $locale }}' );

@@ -8,18 +8,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta id="token" name="token" value="{{ csrf_token() }}">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/css/uikit.almost-flat.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/css/components/sortable.almost-flat.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/css/components/datepicker.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/css/components/notify.almost-flat.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/uikit.almost-flat.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/sortable.almost-flat.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/datepicker.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/notify.almost-flat.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/slidenav.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/dotnav.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/dropzone.css">
         
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/js/uikit.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/js/components/sortable.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/js/components/datepicker.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.22.0/js/components/notify.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/uikit.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/components/slideset.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/components/sortable.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/components/datepicker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/components/notify.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/0.12.12/vue.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.1.15/vue-resource.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/dropzone.js"></script>

@@ -13,3 +13,4 @@
 [22-Nov-2015 16:51:32 GMT] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/sapan2len/laravel/storage/framework/views/bd65a49adac5c5f935204b7697edc4cd on line 20
 [22-Nov-2015 16:51:33 GMT] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/sapan2len/laravel/storage/framework/views/bd65a49adac5c5f935204b7697edc4cd on line 20
 [22-Nov-2015 16:51:49 GMT] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/sapan2len/laravel/storage/framework/views/bd65a49adac5c5f935204b7697edc4cd on line 20
+[23-Nov-2015 11:27:38 GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sapan2len/laravel/storage/framework/views/8f6c596476ea96f487783015e308a824 on line 98
